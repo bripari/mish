@@ -19,7 +19,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #e4c662;
   --bs-green: #67c29c;
-  --bs-teal: #64a19d;
+  --bs-teal: #d5a864;
   --bs-cyan: #1cabc4;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #64a19d;
+  --bs-primary: #d5a864;
   --bs-secondary: #7464a1;
   --bs-success: #67c29c;
   --bs-info: #1cabc4;
@@ -43,7 +43,7 @@
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-primary-rgb: 100, 161, 157;
+  --bs-primary-rgb: 213, 168, 100;
   --bs-secondary-rgb: 116, 100, 161;
   --bs-success-rgb: 103, 194, 156;
   --bs-info-rgb: 28, 171, 196;
@@ -239,8 +239,8 @@ sup {
 }
 
 a {
-  color: #64a19d;
-  text-decoration: underline;
+  color: #d5a864;
+  text-decoration: none;
 }
 a:hover {
   color: #ffffff;
@@ -2519,7 +2519,7 @@ textarea.form-control-lg {
 }
 .form-check-input:checked {
   background-color: #64a19d;
-  border-color: #64a19d;
+  border-color: #d5a864;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -4065,7 +4065,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #64a19d;
+  color: #d5a864;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4122,7 +4122,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #d5a864;
 }
 
 .nav-fill > .nav-link,
@@ -4926,7 +4926,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #64a19d;
+  color: #d5a864;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -4957,8 +4957,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  background-color: #d5a864;
+  border-color: #d5a864;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -6602,7 +6602,7 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #64a19d;
+  color: #d5a864;
 }
 .link-primary:hover, .link-primary:focus {
   color: #50817e;
@@ -11488,8 +11488,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #d5a864;
+  border: 1px solid #d5a864;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11543,15 +11543,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #d5a864;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #d5a864;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #d5a864;
   }
 }
 
@@ -11726,4 +11726,10 @@ body {
 
 .footer {
   padding: 1.5rem 0;
+}
+
+@media (max-width: 992px) {
+  #pow {
+    padding-bottom: 2rem;
+  }
 }
